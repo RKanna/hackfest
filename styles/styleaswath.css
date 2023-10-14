@@ -134,3 +134,8 @@ img {
   font-size: 32px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+
+.footer-icon {
+  display: flex;
+  gap: 1rem;
+}
