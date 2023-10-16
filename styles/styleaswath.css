@@ -54,6 +54,8 @@ img {
   font-family: "Times New Roman", Times, serif;
   font-weight: 900;
   margin-top: 3rem;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .box-one a {
