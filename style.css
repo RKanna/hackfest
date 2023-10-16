@@ -167,8 +167,31 @@ body::before {
   width: 100%;
   height: 10rem;
   background-color: black;
+  /* background-color: #008ad2; */
   margin-top: 3rem;
   border-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  gap: 5rem;
+  justify-content: space-between;
+}
+.img-footer-container img {
+  width: 20%;
+}
+.last-cont {
+  display: flex;
+  flex-direction: column;
+}
+.first-footer {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+.first-set {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 .announce {
   width: 100%;
@@ -195,6 +218,13 @@ body::before {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+}
+.main-footer li {
+  font-size: smaller;
+  color: white;
+}
+.main-footer h4 {
+  color: white;
 }
 
 /* Gl code */
@@ -300,13 +330,6 @@ nav ul li img {
     display: none;
   }
   .background-img {
-    width: 100%;
-    height: 35rem;
-    background-image: url(./images/blogimage-41-1.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    background-image: url(./images/for-mobile.jpg);
   }
 }
