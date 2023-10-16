@@ -51,7 +51,8 @@ body::before {
   gap: 1rem;
   width: 14rem;
   height: 14rem;
-  background-color: lightblue;
+  /* background-color: lightblue; */
+  background-color: #c3cbe4;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: border-top-width 1s ease-in-out;
@@ -126,7 +127,8 @@ body::before {
   width: 68%;
 }
 .course-bg {
-  background-color: lightblue;
+  /* background-color: lightblue; */
+  background-color: #c3cbe4;
   display: flex;
   flex-direction: column;
   padding: 2rem;
@@ -159,6 +161,40 @@ body::before {
 }
 .course-card:hover .overlay-text {
   opacity: 1;
+}
+
+.main-footer {
+  width: 100%;
+  height: 10rem;
+  background-color: black;
+  margin-top: 3rem;
+  border-radius: 1rem;
+}
+.announce {
+  width: 100%;
+  min-height: 25rem;
+  background-color: gray;
+  border-radius: 0.5rem;
+  opacity: 0.8;
+  padding: 1rem;
+}
+.announce .news {
+  color: rgb(74, 2, 71);
+  font-weight: 700;
+  opacity: 1;
+}
+.img-announce-container img {
+  width: 2.2rem;
+}
+.announce-row {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.main-announce-row {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 /* Gl code */
@@ -231,6 +267,10 @@ nav ul li img {
   display: flex;
   border-radius: 1rem;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url(./images/ai-fly.jpg);
+  background-size: cover;
 }
 .sidebar-main ul {
   display: flex;
@@ -242,4 +282,31 @@ nav ul li img {
 }
 .sidebar-main h2 {
   color: #008ad2;
+}
+
+@media screen and (max-width: 768px) {
+  .forsidebar-integ {
+    flex-direction: column;
+    align-items: center;
+  }
+  .sidebar-main {
+    min-width: 30rem;
+    margin-top: -10rem;
+  }
+  .announce {
+    margin-top: 2rem;
+  }
+  .hidden {
+    display: none;
+  }
+  .background-img {
+    width: 100%;
+    height: 35rem;
+    background-image: url(./images/blogimage-41-1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
 }
