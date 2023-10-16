@@ -165,7 +165,7 @@ body::before {
 
 .main-footer {
   width: 100%;
-  height: 10rem;
+  min-height: 10rem;
   background-color: black;
   /* background-color: #008ad2; */
   margin-top: 3rem;
@@ -331,5 +331,20 @@ nav ul li img {
   }
   .background-img {
     background-image: url(./images/for-mobile.jpg);
+  }
+  .main-footer {
+    flex-direction: column;
+  }
+  .first-footer {
+    gap: 2rem;
+  }
+  .last-cont {
+    justify-content: center;
+    align-items: center;
+  }
+  .img-footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
